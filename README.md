@@ -21,6 +21,8 @@ This project is co-created and was originally developed to work alongside the **
 
 The circuit schematic and breadboard layout are provided as Fritzing files (`.fzz` / `.fzpz`) in this repository.
 
+![Circuit sketch](Sketch%20screenshot.png)
+
 ---
 
 ## Sensors & Data Fields
