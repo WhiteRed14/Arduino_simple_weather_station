@@ -23,6 +23,43 @@ The circuit schematic and breadboard layout are provided as Fritzing files (`.fz
 
 ![Circuit sketch](Sketch%20screenshot.png)
 
+### Connection Layout
+
+All components are mounted on a breadboard placed above the Arduino.
+
+**DHT22** (center of breadboard)
+| DHT22 Pin | Arduino Pin |
+|---|---|
+| VCC | 5V |
+| DATA | D2 |
+| GND | GND |
+
+**BMP180** (right side of breadboard, I2C)
+| BMP180 Pin | Arduino Pin |
+|---|---|
+| VCC | 3.3V |
+| SDA | A4 |
+| SCL | A5 |
+| GND | GND |
+
+**MQ-135** (left side of breadboard)
+| MQ-135 Pin | Arduino Pin |
+|---|---|
+| VCC | 5V |
+| AOUT | A0 |
+| GND | GND |
+
+**7-Segment Display** (right end of breadboard)
+| Segment | Arduino Pin |
+|---|---|
+| A | D5 |
+| B | D6 |
+| C | D7 |
+| D | D8 |
+| E | D9 |
+| F | D10 |
+| G | D11 |
+
 ---
 
 ## Sensors & Data Fields
