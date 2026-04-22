@@ -11,12 +11,13 @@ This project is co-created and was originally developed to work alongside the **
 
 | Component | Purpose |
 |---|---|
-| Arduino (Uno / Nano) | Main microcontroller |
+| Arduino UNO R3 (knockoff with built-in Wi-Fi) | Main microcontroller + Wi-Fi |
 | DHT22 | Temperature & humidity |
 | BMP180 | Temperature & barometric pressure |
 | MQ-135 | Air quality (analog) |
-| ESP8266 (AT firmware) | Wi-Fi connectivity |
 | 7-segment display (single digit) | Status indicator |
+
+> **Note:** The Fritzing sketch uses a standard Arduino UNO R3 as a stand-in. The actual board used was a knockoff Arduino UNO R3 with an integrated ESP8266 Wi-Fi module. The AT command communication in the sketch targets that built-in module rather than a separate ESP8266 board.
 
 The circuit schematic and breadboard layout are provided as Fritzing files (`.fzz` / `.fzpz`) in this repository.
 
