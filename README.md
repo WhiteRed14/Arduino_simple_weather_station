@@ -50,6 +50,9 @@ All components are mounted on a breadboard placed above the Arduino.
 | GND | GND |
 
 **7-Segment Display** (right end of breadboard)
+
+A 220Ω resistor is placed in series on the common cathode line to limit current.
+
 | Segment | Arduino Pin |
 |---|---|
 | A | D5 |
