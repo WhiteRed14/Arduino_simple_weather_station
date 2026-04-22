@@ -27,14 +27,14 @@ The circuit schematic and breadboard layout are provided as Fritzing files (`.fz
 
 All components are mounted on a breadboard placed above the Arduino.
 
-**DHT22** (center of breadboard)
+**DHT22**
 | DHT22 Pin | Arduino Pin |
 |---|---|
 | VCC | 5V |
 | DATA | D2 |
 | GND | GND |
 
-**BMP180** (right side of breadboard, I2C)
+**BMP180**
 | BMP180 Pin | Arduino Pin |
 |---|---|
 | VCC | 3.3V |
@@ -42,14 +42,14 @@ All components are mounted on a breadboard placed above the Arduino.
 | SCL | A5 |
 | GND | GND |
 
-**MQ-135** (left side of breadboard)
+**MQ-135**
 | MQ-135 Pin | Arduino Pin |
 |---|---|
 | VCC | 5V |
 | AOUT | A0 |
 | GND | GND |
 
-**7-Segment Display** (right end of breadboard)
+**7-Segment Display**
 
 A 220Ω resistor is placed in series on the common cathode line to limit current.
 
